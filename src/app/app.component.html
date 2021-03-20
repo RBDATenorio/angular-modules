@@ -1,5 +1,11 @@
-<app-elements-home [teste]="'vê no que dá'"></app-elements-home>
-<app-collections-home></app-collections-home>
-<app-views-home></app-views-home>
-<app-mods-home></app-mods-home>
-<router-outlet></router-outlet>
+<div class="ui container">
+    <div class="ui secondary pointing menu">
+        <a routerLink="/elements" class="item">Elements</a>
+        <a routerLink="/collections" class="item">Collections</a>
+        <a routerLink="/views" class="item">Views</a>
+        <a routerLink="/mods" class="item">Modules</a>
+    </div>
+    <div class="ui segment">
+        <router-outlet></router-outlet>
+    </div>
+</div>
