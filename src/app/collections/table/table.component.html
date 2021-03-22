@@ -1,0 +1,16 @@
+<table class="ui striped table">
+    <thead>
+        <tr>
+            <th *ngFor="let head of header">
+                {{ head.label }}
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let record of data">
+            <td>{{ record.name }}</td>
+            <td>{{ record.age }}</td>
+            <td>{{ record.job }}</td>
+        </tr>
+    </tbody>
+</table>
