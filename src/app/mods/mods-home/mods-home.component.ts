@@ -9,6 +9,11 @@ export class ModsHomeComponent implements OnInit {
 
   modalOpen = false;
 
+  items = [
+    { title: 'What is a dog', content: 'A dog is an animal' },
+    { title: 'What is the best metal band ever?', content: 'Iron Maiden, without a doubt' }
+  ];
+
   constructor() { }
 
   ngOnInit(): void {
